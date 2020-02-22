@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Responsive Images</title>
+</head>
+<body>
+    <div class="section-container">
+
+        <section class="header">
+
+            <picture class="hero">
+            <source
+                media="(min-width: 401px)"
+                srcset="imgaes/hero-big.jpg">
+             
+                <source
+                 srcset="images/hero-small.jpg">      
+             </picture>
+             <div class="profile">
+                 <img src="images/profile.png">
+                 <h1>Daniel McFish</h1>
+             </div>
+        </section>
+            <div class="hero">
+                 <img src="/images/hero-big.jpg">
+        </div>
+    </div>
+</body>
+</html>
